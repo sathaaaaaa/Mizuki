@@ -75,10 +75,10 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there, my name is Mizuki.\n\nI am a next gen powerful group manager bot.\n\nHit /help to find my list of available commands."""
+PM_START_TEXT = """Hey there, my name is Zorese.Commonly known as The Vampire Lady.\n\nI am a next gen powerful group manager bot.\n\nHit /help to find my list of available commands."""
 buttons = [
     [
-        InlineKeyboardButton(text="♞ Support", url="https://t.me/Infinity_BOTs"),
+        InlineKeyboardButton(text="♞ Support", url="https://t.me/CountDraculasupport"),
         InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
     ],
     [
@@ -88,13 +88,13 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add me to your group ➕", url="t.me/TheMizukiBot?startgroup=true"
+            text="➕ Add me to your group ➕", url="t.me/TheVampireLadyBot?startgroup=true"
         ),
     ],
 ]
 
 HELP_STRINGS = """
-Hey there! My name is *Mizuki*.
+Hey there! My name is *Zorese*.
 I'm a group management bot, here to help you get around and keep the order in your groups!
 
 *Main* commands available:
