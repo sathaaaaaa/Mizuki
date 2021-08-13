@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there, my name is Zorese.Commonly known as The Vampire Lady.\n\nI am a next gen powerful group manager bot.\n\nHit /help to find my list of available commands."""
+PM_START_TEXT = """Hey there, my name is Ruby X.Commonly known as The Vampire Lady.\n\nI am a next gen powerful group manager bot.\n\nHit /help to find my list of available commands."""
 buttons = [
     [
         InlineKeyboardButton(text="♞ Support", url="https://t.me/CountDraculasupport"),
